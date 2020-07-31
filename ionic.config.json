@@ -1,6 +1,8 @@
 {
-  "name": "bia-fara",
-  "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {}
+    "name": "bia-fara",
+    "app_id": "",
+    "type": "ionic-angular",
+    "integrations": {
+        "cordova": {}
+    }
 }

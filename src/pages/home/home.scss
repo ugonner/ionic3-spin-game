@@ -1,3 +1,88 @@
 page-home {
 
+  ion-content{
+    background: #000000 !important;
+  }
+
+  #game_over_div{
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    font-weight: bolder;
+    -webkit-transition: display 4s;
+    -moz-transition: display 4s;
+    -ms-transition: display 4s;
+    -o-transition: display 4s;
+    transition: display 4s;
+  }
+
+  #game_over_img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #game_over_message{
+    position: absolute;
+    top: 30%;
+    color: gold;
+  }
+
+  #spin-container{
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background: blueviolet;*/
+  }
+
+  #spinner_image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /*transform: rotate(45deg);*/
+  }
+
+  .win-points{
+    position: absolute;
+    background: blueviolet;
+    color: #ffffff;
+    font-family: impact, serif;
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+
+  #pointer-1{
+    position: absolute;
+    background: darkred;
+    color: #ffffff;
+    font-family: impact, serif;
+    padding: 5px;
+    border-radius: 50%;
+
+    left: 45%;
+    top: 0;
+
+  }
+  #win-point-1{
+    left: 43%;
+    top: 0;
+  }
+  #win-point-2{
+    top: 43%;
+    right: 0;
+  }
+  #win-point-3{
+    left: 43%;
+    bottom: 0;
+  }
+  #win-point-4{
+    top: 43%;
+    left: 0;
+  }
+
 }
